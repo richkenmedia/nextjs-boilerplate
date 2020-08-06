@@ -8,7 +8,7 @@ export default function Home() {
       <Row>
         <Col>
           <h1>Defualt Home Page</h1>
-          <Button color="success">Hello</Button>
+          <Button color="danger">Hello</Button>
         </Col>
       </Row>
     </Container>
