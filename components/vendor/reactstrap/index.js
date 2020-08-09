@@ -28,3 +28,8 @@ export FormGroup from './FormGroup';
 export Label from './Label';
 export TabContent from './TabContent';
 export TabPane from './TabPane';
+export Carousel from './Carousel';
+export CarouselItem from './CarouselItem';
+export CarouselControl from './CarouselControl';
+export CarouselCaption from './CarouselCaption';
+export CarouselIndicators from './CarouselIndicators';
