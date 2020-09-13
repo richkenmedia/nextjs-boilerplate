@@ -4,14 +4,17 @@ import { Container, Row, Col, Button } from '../components/vendor/reactstrap';
 export default function Home() {
   // if the following return has more than tags then wrap them in ()
   return (
-    <div className="bg-danger vh-100">
-      <Container fluid={true}>
-        <Row>
-          <Col className="pt-5">
-            <h1 className="text-center text-white">Home Page</h1>
-          </Col>
-        </Row>
-      </Container>
+    <div className="bg-danger d-flex align-items-center justify-content-center vh-100 flex-column text-white">
+      <h1>RICHKEN MEDIA</h1>
+      <p>
+        <a href="/sign-up" className="text-white">
+          Sign-Up
+        </a>
+        {' | '}
+        <a href="/sign-in" className="text-white">
+          Sign-In
+        </a>
+      </p>
     </div>
   );
 }

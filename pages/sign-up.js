@@ -79,7 +79,7 @@ export default function SignUp() {
                     </div>
                     <a href="/sign-in">Already a user?</a>
                     <div className="d-flex flex-row-reverse">
-                      <Button color="primary">Sign Up Here</Button>
+                      <Button color="primary">Sign Up</Button>
                     </div>
                   </form>
                 </CardText>
