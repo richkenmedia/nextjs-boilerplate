@@ -1,7 +1,5 @@
 import React from 'react';
-
-// importing default bootstrap styles
-import '../themes/custom/style.scss';
+import '../themes/sts/style.scss';
 
 const MyApp = ({ Component, pageProps }) => {
   return (

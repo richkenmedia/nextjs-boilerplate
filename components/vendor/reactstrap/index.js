@@ -1,3 +1,5 @@
+const { CardFooter } = require('reactstrap');
+
 export Alert from './Alert';
 export Badge from './Badge';
 export Breadcrumb from './Breadcrumb';
@@ -10,7 +12,10 @@ export DropdownMenu from './DropdownMenu';
 export DropdownItem from './DropdownItem';
 export Collapse from './Collapse';
 export Card from './Card';
+export CardTitle from './CardTitle';
 export CardBody from './CardBody';
+export CardText from './CardText';
+export CardFooter from './CardFooter';
 export Container from './Container';
 export CustomInput from './CustomInput';
 export Row from './Row';

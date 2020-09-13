@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Quicksand:wght@300&display=swap');
+
+$blue: #0e1c3f;
+$indigo: #2858c7;
+$purple: #673686;
+$pink: #ca3694;
+$red: #f04a3b;
+$green: #30c04f;
+$yellow: #f7dd39;
+$orange: #f07849;
+$teal: #1e8383;
+$cyan: #41e6e6;
+
+$border-radius: 0.12rem;
+$border-radius-lg: 0.15rem;
+$border-radius-sm: 0.18rem;
+
+$font-family-sans-serif: 'Oswald', sans-serif;
+$font-family-monospace: 'Quicksand', sans-serif;
+$font-family-base: $font-family-monospace;
+$headings-font-family: $font-family-sans-serif;
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+/* removing hover box-shadow */
+.btn,
+.form-control,
+.form-control.active,
+.form-control.focus,
+.btn.active,
+.btn.focus {
+  outline: none !important;
+  box-shadow: none !important;
+  &:focus,
+  &:active {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+}
