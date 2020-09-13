@@ -12,7 +12,7 @@ import {
 export default function SignUp() {
   // if the following return has more than tags then wrap them in ()
   return (
-    <div className="bg-warning vh-100 d-block">
+    <div className="bg-gradient-warning vh-100 d-block">
       <Container fluid={true}>
         <Row className="justify-content-center">
           <Col md="4" sm="12" className="mt-5">
