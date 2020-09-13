@@ -1,3 +1,4 @@
+import { useRouter } from 'next/router';
 import {
   Container,
   Row,
@@ -10,6 +11,7 @@ import {
 } from '../components/vendor/reactstrap';
 
 export default function SignIn() {
+  const router = useRouter();
   // if the following return has more than tags then wrap them in ()
   return (
     <div className="bg-warning vh-100 d-block">
@@ -57,7 +59,14 @@ export default function SignIn() {
                     </div>
                     <a href="/sign-up">Not registerd yet?</a>
                     <div className="d-flex flex-row-reverse">
-                      <Button color="primary">Sign In</Button>
+                      <Button
+                        color="primary"
+                        onClick={() => {
+                          router.push('/dashboard');
+                        }}
+                      >
+                        Sign In
+                      </Button>
                     </div>
                   </form>
                 </CardText>
