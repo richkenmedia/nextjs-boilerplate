@@ -60,7 +60,7 @@ export default function SignUp() {
                         type="password"
                         class="form-control"
                         id="lastNameInput"
-                        placeholder="Please enter your First Name"
+                        placeholder="Please enter your Last Name"
                       />
                     </div>
                     <div class="form-group form-check">
