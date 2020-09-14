@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Quicksand:wght@300&display=swap');
 
+$font-family-sans-serif: 'Oswald', sans-serif;
+$font-family-monospace: 'Quicksand', sans-serif;
+$font-family-base: $font-family-monospace;
+$headings-font-family: $font-family-sans-serif;
+
+$enable-gradients: true;
+
 $blue: #0e1c3f;
 $indigo: #2858c7;
 $purple: #673686;
@@ -11,16 +18,19 @@ $orange: #f07849;
 $teal: #1e8383;
 $cyan: #41e6e6;
 
-$enable-gradients: true;
+$theme-colors: (
+  'primary': $blue,
+  'success': $green,
+  'info': $cyan,
+  'warning': $yellow,
+  'danger': $red,
+);
 
 $border-radius: 0.12rem;
 $border-radius-lg: 0.15rem;
 $border-radius-sm: 0.18rem;
 
-$font-family-sans-serif: 'Oswald', sans-serif;
-$font-family-monospace: 'Quicksand', sans-serif;
-$font-family-base: $font-family-monospace;
-$headings-font-family: $font-family-sans-serif;
+$link-hover-decoration: none;
 
 @import 'node_modules/bootstrap/scss/bootstrap';
 
@@ -37,5 +47,16 @@ $headings-font-family: $font-family-sans-serif;
   &:active {
     box-shadow: none !important;
     outline: none !important;
+  }
+}
+
+#sidebar {
+  width: 20rem;
+  a {
+    color: white;
+    &:hover {
+      color: darken(white, 15%);
+      background: lighter($blue, 10%);
+    }
   }
 }
