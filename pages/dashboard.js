@@ -8,7 +8,7 @@ export default function Dashboard() {
   };
   // if the following return has more than tags then wrap them in ()
   return (
-    <div className="d-flex vh-100">
+    <div className="d-flex">
       <div className="bg-dark" id="sidebar">
         <Container>
           <Row>
