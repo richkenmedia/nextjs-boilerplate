@@ -51,7 +51,12 @@ $link-hover-decoration: none;
 }
 
 #sidebar {
-  width: 20rem;
+  width: 0;
+  transition: width 0.5s;
+  &.open {
+    width: 20rem;
+    transition: width 0.5s;
+  }
   a {
     color: white;
     &:hover {
