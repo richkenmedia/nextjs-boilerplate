@@ -23,54 +23,54 @@ export default function SignUp() {
                 </CardTitle>
                 <CardText>
                   <form>
-                    <div class="form-group">
+                    <div className="form-group">
                       <label htmlFor="emailInput">Email address</label>
                       <input
                         type="email"
-                        class="form-control"
+                        className="form-control"
                         id="emailInput"
                         aria-describedby="emailHelp"
                         placeholder="Please enter your email"
                       />
-                      <small id="emailHelp" class="form-text text-muted">
+                      <small id="emailHelp" className="form-text text-muted">
                         We'll never share your email with anyone else.
                       </small>
                     </div>
-                    <div class="form-group">
+                    <div className="form-group">
                       <label htmlFor="passwordInput">Password</label>
                       <input
                         type="password"
-                        class="form-control"
+                        className="form-control"
                         id="passwordInput"
                         placeholder="Please enter your password"
                       />
                     </div>
-                    <div class="form-group">
+                    <div className="form-group">
                       <label htmlFor="firstNameInput">First Name</label>
                       <input
                         type="password"
-                        class="form-control"
+                        className="form-control"
                         id="firstNameInput"
                         placeholder="Please enter your First Name"
                       />
                     </div>
-                    <div class="form-group">
+                    <div className="form-group">
                       <label htmlFor="lastNameInput">Last Name</label>
                       <input
                         type="password"
-                        class="form-control"
+                        className="form-control"
                         id="lastNameInput"
                         placeholder="Please enter your Last Name"
                       />
                     </div>
-                    <div class="form-group form-check">
+                    <div className="form-group form-check">
                       <input
                         type="checkbox"
-                        class="form-check-input"
+                        className="form-check-input"
                         id="certifyReadCheck"
                       />
                       <label
-                        class="form-check-label"
+                        className="form-check-label"
                         htmlFor="certifyReadCheck"
                       >
                         I agree to the{' '}
