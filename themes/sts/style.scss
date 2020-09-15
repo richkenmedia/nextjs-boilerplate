@@ -53,6 +53,7 @@ $link-hover-decoration: none;
 #sidebar {
   width: 0;
   transition: width 0.5s;
+  overflow: hidden;
   &.open {
     width: 20rem;
     transition: width 0.5s;

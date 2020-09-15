@@ -48,14 +48,14 @@ export default function Dashboard() {
         </Container>
       </div>
       <div className="w-100">
-        <nav className="navbar navbar-dark bg-secondary">
+        <nav className="navbar navbar-dark bg-secondary pl-4">
           <button className="navbar-toggler" type="button" onClick={toggleMenu}>
             <span className="navbar-toggler-icon"></span>
           </button>
         </nav>
         <Container fluid={true}>
           <Row>
-            <Col className="mt-4">
+            <Col className="m-3">
               <h1>RichUI</h1>
               <p>This is a demo page for Richken Media BootStrap Theme</p>
 
