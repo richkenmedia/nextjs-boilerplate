@@ -60,64 +60,64 @@ export default function Dashboard() {
               <p>This is a demo page for Richken Media BootStrap Theme</p>
 
               <h3>Card Layouts</h3>
-              <div class="card" style={{ width: '18rem' }}>
+              <div className="card" style={{ width: '18rem' }}>
                 <img
                   src="https://picsum.photos/seed/picsum/200/100"
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="..."
                 />
-                <div class="card-body">
-                  <p class="card-text">
+                <div className="card-body">
+                  <p className="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
                 </div>
-                <div class="card-footer">Card footer</div>
+                <div className="card-footer">Card footer</div>
               </div>
 
               <h3>Alerts</h3>
-              <div class="alert alert-danger" role="alert">
+              <div className="alert alert-danger" role="alert">
                 A simple success alert—check it out!
               </div>
 
               <h3>Badges</h3>
               <div className="mt-3 mb-3">
-                <span class="badge badge-success">Success</span>&nbsp;
-                <span class="badge badge-warning">Success</span>&nbsp;
-                <span class="badge badge-danger">Success</span>
+                <span className="badge badge-success">Success</span>&nbsp;
+                <span className="badge badge-warning">Success</span>&nbsp;
+                <span className="badge badge-danger">Success</span>
               </div>
 
               <h3>Buttons</h3>
               <div className="mt-3 mb-3">
-                <button type="button" class="btn btn-primary">
+                <button type="button" className="btn btn-primary">
                   Primary
                 </button>
                 &nbsp;
-                <button type="button" class="btn btn-secondary">
+                <button type="button" className="btn btn-secondary">
                   Secondary
                 </button>
                 &nbsp;
-                <button type="button" class="btn btn-success">
+                <button type="button" className="btn btn-success">
                   Success
                 </button>
                 &nbsp;
-                <button type="button" class="btn btn-danger">
+                <button type="button" className="btn btn-danger">
                   Danger
                 </button>
                 &nbsp;
-                <button type="button" class="btn btn-warning">
+                <button type="button" className="btn btn-warning">
                   Warning
                 </button>
                 &nbsp;
-                <button type="button" class="btn btn-info">
+                <button type="button" className="btn btn-info">
                   Info
                 </button>
                 &nbsp;
-                <button type="button" class="btn btn-light">
+                <button type="button" className="btn btn-light">
                   Light
                 </button>
                 &nbsp;
-                <button type="button" class="btn btn-dark">
+                <button type="button" className="btn btn-dark">
                   Dark
                 </button>
               </div>
